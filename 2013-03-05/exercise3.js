@@ -1,4 +1,4 @@
-console.log("Esercizio 2");
+console.log("Esercizio 3");
 
 var mat ="";
 for (var i=1; i<=10; i++) {
@@ -8,11 +8,10 @@ for (var i=1; i<=10; i++) {
 		else 
 			mat += 0 + "," + "\t";
         }
-		if (j=10 && i===j)
-			mat += 1;
+		if (i===j)
+			mat += 1 + "\n";
 		else
-			mat += 0;
-	mat += "\n";
+			mat += 0 + "\n";
 }
 
 console.log(mat); 
